@@ -1,0 +1,9 @@
+date-format %Y-%m-%d
+separator ,
+
+account1 Assets
+account2 Unsorted
+
+fields date, description, amount, date_ended, balance
+
+comment1 date: %date_ended
