@@ -1,0 +1,14 @@
+; journal created 2022-06-02 by hledger
+
+2022-01-01 First topup
+    Assets            100EUR = 100EUR  ; date: 2022-01-01
+    Unsorted         -100EUR
+
+2022-01-02 Second topup
+    Assets           1000EUR = 1100EUR  ; date: 2022-01-02
+    Unsorted        -1000EUR
+
+2022-01-01 First expense
+    Assets            -10EUR = 1090EUR  ; date: 2022-01-02
+    Unsorted           10EUR
+
